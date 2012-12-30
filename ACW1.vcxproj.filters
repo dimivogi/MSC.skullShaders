@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ACW1.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ACW1.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShaderA.vsh" />
+    <None Include="SimpleShaderB.vsh" />
+    <None Include="SimpleShaderC.vsh" />
+    <None Include="SimpleShaderD.vsh" />
+    <None Include="SimpleShaderE.vsh" />
+    <None Include="SimpleShaderF.vsh" />
+    <None Include="ACW1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c8c9d89d-5493-413d-9598-3537a61f599b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{ffced1f5-eb4e-4f3a-8c74-1f9fe3d5e796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{2f725ac0-9347-4588-aaa1-89dcdc85ef80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ACW1.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
