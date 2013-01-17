@@ -20,18 +20,17 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SimpleShaderA.vsh" />
-    <None Include="SimpleShaderB.vsh" />
-    <None Include="SimpleShaderC.vsh" />
-    <None Include="SimpleShaderD.vsh" />
-    <None Include="SimpleShaderE.vsh" />
-    <None Include="SimpleShaderF.vsh" />
     <None Include="ACW1.ico">
       <Filter>Resources</Filter>
     </None>
     <None Include="small.ico">
       <Filter>Resources</Filter>
     </None>
+    <None Include="bin\SimpleShaderA.vsh" />
+    <None Include="bin\SimpleShaderB.vsh" />
+    <None Include="bin\SimpleShaderC.vsh" />
+    <None Include="bin\SimpleShaderD.vsh" />
+    <None Include="bin\SimpleShaderE.vsh" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resources">
